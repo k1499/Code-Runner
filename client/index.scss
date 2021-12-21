@@ -69,6 +69,7 @@ body {
         background: $primary;
         &:hover, &:focus, &:active {
           background: #46c9b6;
+          cursor: pointer;
         }
         &[disabled] {
           background: #1A7B72;
@@ -81,6 +82,7 @@ body {
       #saveBtn:hover {
         background: rgba(0, 0, 0, 0.2);
         border: 1px solid #e0c7c7;
+        cursor: pointer;
       }
     }
     #io-row {
